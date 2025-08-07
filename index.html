@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="side">
+        <img src="picture.avif" alt="">
+        <div class="logo">
+            Zepzz
+        </div>
+    </div>
+    <div class="container">
+        <form action="">
+        <fieldset >
+            
+            <legend>
+                Sign in for better holiday recommendations
+            </legend>
+
+            <div class="item">
+                <label for="">Name:</label>
+                <input required type="text">
+            </div>
+            <div class="item">
+                <label for="">Surname:</label>
+                <input required type="text">
+            </div>
+            <div class="item" style="width: max(80%, 200px);">
+                <label for="">Email:</label>
+                <input required type="email" style="width: 70%;">
+            </div>
+            <div class="item">
+                <label for="">Location:</label>
+                <select name="" id="">
+                    <option value="loc-a">Loc A</option>
+                    <option value="loc-b">Loc B</option>
+                    <option value="loc-c">Loc C</option>
+                </select>
+            </div>
+            <div>
+                
+            </div>
+
+            <div class="item">
+                <label for="">Size:</label>
+                <input required type="number" min="1" max="10">
+            </div>
+
+            <div class="item">
+                <label for="">Tel:</label>
+                <input required type="tel">
+            </div>
+            <div class="check" style="width:max(80%, 200px);margin: 0 auto;">
+                <input required type="checkbox" id="not-tel" checked>
+                <label for="not-tel">get notifications via sms</label>
+
+                <input required type="checkbox" id="not-mail" checked>
+                <label for="not-mail">get notifications via mail</label>
+            </div>
+
+            <input required type="submit" name="" id="submit" style="height: 30px;">
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
